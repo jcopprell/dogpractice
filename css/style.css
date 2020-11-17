@@ -1,0 +1,44 @@
+body {
+  background:#BFAFA7
+}
+
+h1 {
+  color: #2C2928;
+  text-align: center;
+  background-color: white;
+  font-size: 60px;
+}
+
+.dogfacts {
+  background: white;
+  color: brown;
+  padding: 50px;
+  font-size: 20px;
+}
+
+p {
+  color: white;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.dogpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #B9F5D8;
+  }
+  .dogcolumn img {
+    width: 100%;
+  }
+  p {
+  color: black;
+}
+}
